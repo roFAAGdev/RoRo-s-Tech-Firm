@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>📡 RoRo's Tech Firm 📡</title>
+    <style>
+        /* Reset */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(90deg, #4a90e2, #50e3c2);
+            color: white;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: #222;
+            border-bottom: 2px solid #50e3c2;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        h3 {
+            font-size: 1.4rem;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            color: #4a90e2;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        button {
+            display: block;
+            background-color: #4a90e2;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+            margin: 20px auto;
+        }
+
+        button:hover {
+            background-color: #50e3c2;
+        }
+
+        footer {
+            background-color: #222;
+            color: #f5f5f5;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+
+        footer p {
+            margin-bottom: 5px;
+        }
+
+        /* Custom Drone Builds Card Styles */
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        .card h3 {
+            color: #4a90e2;
+            margin-bottom: 10px;
+        }
+
+        .card ul {
+            padding-left: 20px;
+        }
+
+        @media (max-width: 600px) {
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            h3 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>📡 RoRo's Tech Firm 📡</h1>
+    <p>Bridging the gap between the everyday consumer and technological genius. As a student, freelancer, and entrepreneur, I use my technical prowess to provide the services below.</p>
+</header>
+
+<section>
+    <h2>💻 PC Builds</h2>
+    <ul>
+        <li>Gaming, AI, streaming, and creative rigs</li>
+        <li>Budget-optimized, clean cable-managed builds</li>
+        <li>Windows OS and driver installation</li>
+    </ul>
+
+    <h2>🔧 Tech & Electronics Repair</h2>
+    <ul>
+        <li>Laptop, console, and TV repairs</li>
+        <li>Custom LED/RGB lighting setups</li>
+        <li>Dust cleaning, thermal repasting, and performance tune-ups</li>
+    </ul>
+
+    <h2>🏠 Smart Home Setup</h2>
+    <ul>
+        <li>Smart locks, thermostats, lighting</li>
+        <li>Voice assistants: Alexa, Google Home</li>
+        <li>Automation + routines</li>
+    </ul>
+
+    <h2>📶 Network & Wi-Fi Optimization</h2>
+    <ul>
+        <li>Mesh networks + dead zone fixing</li>
+        <li>Router configuration, Ethernet runs (low-voltage)</li>
+    </ul>
+
+    <h2>🎧 Audio & Media Installations</h2>
+    <ul>
+        <li>TV mounting & cable management</li>
+        <li>Surround sound & soundbars</li>
+        <li>Custom workstation lighting</li>
+    </ul>
+
+    <h2>📷 Security & Surveillance</h2>
+    <ul>
+        <li>Ring/Nest doorbells, cameras</li>
+        <li>Motion sensors, phone setup help</li>
+    </ul>
+
+    <h2>🚁 Custom Drone Builds</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>AI Drones</h3>
+            <ul>
+                <li>Autonomous navigation & obstacle avoidance</li>
+                <li>AI object detection & tracking</li>
+                <li>Custom payload integration</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Racing & FPV Drones</h3>
+            <ul>
+                <li>High-speed builds for FPV racing</li>
+                <li>Optimized frame, motors & batteries</li>
+                <li>Custom camera setups</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Photography & Videography Drones</h3>
+            <ul>
+                <li>Stable gimbal camera drones</li>
+                <li>4K/6K aerial footage support</li>
+                <li>Long flight time optimization</li>
+            </ul>
+        </div>
+    </div>
+
+    <button>Get A Quote</button>
+</section>
+
+<footer>
+    <p>© 2025 Rokeeb's Tech Firm. All rights reserved. Brooklyn, New York.</p>
+    <p>📧 Contact: rokeeb373@gmail.com</p>
+</footer>
+
+</body>
+</html>
